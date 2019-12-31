@@ -1,0 +1,6 @@
+framework module Pods_secondfirebase_secondfirebaseUITests {
+  umbrella header "Pods-secondfirebase-secondfirebaseUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
