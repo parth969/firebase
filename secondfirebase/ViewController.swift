@@ -23,6 +23,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var Password: UITextField!
     
     
+    
     @IBAction func btnsave(_ sender: Any) {
         let Data = ["Email":Email.text,"Password":Password.text]
         (self.ref.child("Data") as AnyObject).childByAutoId().setValue(Data)
